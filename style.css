@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(143, 62, 24);
+    color: white;
+height: 80px;
+}
+.menu-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+
+}
+
+li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.titulo{
+  font-size: 30px;  
+}
+.banner{
+    
+}
