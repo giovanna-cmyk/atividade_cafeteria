@@ -1,39 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cafeteria</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <title>Café Delicia</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
     <header>
-        <nav class="menu"> 
-            <div>
-                <p class="titulo">Café Delicia</p>
+        <nav class="menu">
+            <div class="menu-logo">
+                <i class="bi bi-cup-hot icon"></i>
+                <p class="texto-logo"> Café Delicia</p>
             </div>
-       <ul class="menu-lista">
-        <li>
-            <a href="#">Inicio</a>
-        </li>
-
-        <li>
-            <a href="#">Productos</a>
-        </li>
-        <li>
-            <a href="#">Sobre Nosotros</a>
-        </li>
-        <li>
-            <a href="#">Contacto</a>
-        </li>
-       </ul>
-    </nav>
-    <div class="banner">
-        <img src="assets/img/photo-1521017432531-fbd92d768814.jpg" alt="">
-
-       </div>
+            <ul class="lista-menu">
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Produtos</a>
+                </li>
+                <li>
+                    <a href="#">Sobre Nós</a>
+                </li>
+                <li>
+                    <a href="#">Contatos</a>
+                </li>
+            </ul>
+            <div class="menu-icones">
+                <i class="bi bi-cart2 icon"></i>
+                <i class="bi bi-list icon"></i>
+            </div>
+        </nav>
     </header>
+    <main>
+        <section class="section-center">
+            <div class="banner">
+                <div class="elementos-banner">
+
+                </div>
+                <div class="caixa-titulo-banner">
+                    <p class="titulo-banner">
+                        Bem-vindo ao Café Delicia
+                    </p>
+                    <p class="texto-banner">
+                        O melhor café artesanal e doces frescos todos os dias.
+                    </p>
+                    <button class="btn-banner-menu">Ver Menu</button>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="caixa-texto-produtos">
+                <div class="titulo-produtos"> Nossos Produtos</div>
+                <div class="texto-produtos">
+                    Descubra nossa seleção de cafés artesanais, doces frescos e pratos deliciosos preparados com os
+                    melhores ingredientes.</div>
+            </div>
+            <div class="caixa-btn-produtos">
+                <button class="btn-cafe"> <i class="bi bi-cup-hot btn-icon-selected"></i> Café</button>
+                <button class="btn-confeitaria"> <i class="bi bi-cake2 btn-icon"></i> Confeitaria</button>
+                <button class="btn-comida"> <i class="bi bi-egg-fried"></i> Comida</button>
+            </div>
+       
+        
+            <div class="caixa-cards">   
+                <div class="card-popular">
+
+                    <div class="caixa-img-cards"><img class="img-cards" src="./assets/img/photo-1645445644664-8f44112f334c.jpg" alt="">
+                    </div>
+                    <div class="caixa-texto-card">
+
+                        <p class="titulo-card">Espresso</p>
+                        <p class="subtitulo-card">Café concentrado e aromático</p>
+                        <div class="preco-btn-card">
+                            <p class="preco-card">$3.50</p>
+                            <button class="btn-card"> <i class="bi bi-cart2 card-btn"></i> Adicionar </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+         </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
