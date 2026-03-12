@@ -175,7 +175,7 @@ li {
     font-size: 15px;
     font-family: inter;
     background-color: white;
-    transition: all 0.2s ease-in-out;
+
     cursor: pointer;
 } 
 .btn-comida:hover{
@@ -207,10 +207,7 @@ main{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    transition: all 0.1s ease-in-out;
-    cursor: pointer;
-    box-shadow: 5px 5px 5px  rgb(0 0 0 / 10%);
-    transition: all 0.2s ease-in-out;
+
 }
 .caixa-cards:hover{
     box-shadow: 5px 10px 5px  rgb(0 0 0 / 15%);
