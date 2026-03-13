@@ -81,3 +81,19 @@ src="${produtos.img}" alt="">
     })
    
 }
+
+document.querySelector(".btn01-produtos").addEventListener("click", () => {
+mostrarProdutos(cafe)
+})
+
+document.querySelector(".btn02-produtos").addEventListener("click", () => {
+mostrarProdutos(bolos)
+})
+
+document.querySelector(".btn03-produtos").addEventListener("click", () => {
+
+mostrarProdutos(comidas)
+})
+
+/* produtos iniciais */
+mostrarProdutos(cafe)
